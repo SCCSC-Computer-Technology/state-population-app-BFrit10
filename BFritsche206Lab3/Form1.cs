@@ -52,7 +52,7 @@ namespace BFritsche206Lab3
             //Variable for new form, data, selected state, and rows
             var stateDet = new StateDetails();
             DataTable dt = this.stateInfoDataSet.StateInfo;
-            string selectedState = cBoxStates.GetItemText(cBoxStates.SelectedItem);
+            string selectedState = cBoxStates.GetItemText(cBoxStates.SelectedItem);//Suggested by ChatGPT when couldn't figure out how to  make the correct results appear
             DataRow[] rows = dt.Select($"StateName = '{selectedState.Replace("'", "''")}'");
 
             //Getting the data to appear in the labels
@@ -70,7 +70,7 @@ namespace BFritsche206Lab3
                 stateDet.lblSecondLargest.Text = row["SecondLargestCity"].ToString();
                 stateDet.lblThirdLargest.Text = row["ThirdLargestCity"].ToString();
                 stateDet.lblCapital.Text = row["Capital"].ToString();
-                decimal income = Convert.ToDecimal(row["MedianIncome"]);
+                decimal income = Convert.ToDecimal(row["MedianIncome"]);//Suggested by ChatGPT when asked how to format
                 stateDet.lblMedIncome.Text = income.ToString("C2");
                 stateDet.lblCompPercentage.Text = row["ComputerJobPercentage"].ToString();
 
@@ -90,3 +90,4 @@ namespace BFritsche206Lab3
         }
     }
 }
+
