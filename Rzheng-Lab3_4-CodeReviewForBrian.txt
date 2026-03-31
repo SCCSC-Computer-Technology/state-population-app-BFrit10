@@ -1,0 +1,3 @@
+Hey Brian,
+
+I just review your lab 3 and 4 state population project. I liked how it looked, very minimalistic, though I wish there was maybe a little bit more color. But besides that, all the fields are organized. I did notice that your home page for form1 was left default. Also, when I try to add a team, I couldn't fill out the information. But overall, I think you did a great job.
