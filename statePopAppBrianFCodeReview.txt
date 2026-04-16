@@ -1,0 +1,11 @@
+Q1 - Is the code generally readable and well-documented?
+A1 – Yes, from what I saw the code was readable and easy enough to follow. It was not super full of comments or anything, but it was simple and laid out in a way that made sense. The program structure seemed straightforward and not all over the place. I think it could always use a little more documentation, but overall it looked fine.
+
+Q2 – Did you find any software defects?
+A2- I did not really find any major software defects with this one. The program looked like it was running and doing what it was supposed to do by letting the user pick a state and then showing the details for it. I did notice the layout looked a little plain, but that is more of a design thing than an actual defect. So overall I would say no major issues stood out to me.
+
+Q3 - What was one way that their solution differed from yours?
+A3 – Their solution differed from mine with how they laid out the forms and displayed the state information. The way they opened a second form for the details was a little different from how I would have set mine up. It looked simple and got the job done, which I liked.
+
+Q4 – Do you have any other constructive comments for the author?
+A4 – I would just say maybe add a little more commenting and maybe improve the look of the form a little bit so it stands out more. Other than that, it seemed clean and easy to understand. I did not really have any major complaints about it.
